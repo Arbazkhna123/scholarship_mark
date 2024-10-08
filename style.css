@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
+#resultTable {
+    margin-top: 20px;
+}
+#addStudentButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 79%;
+}
+#addStudentButton:hover {
+    background-color: #45a049;
+}
+
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.dark th{
+    background-color: rgb(191, 232, 248);
+    color: black;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+marquee{
+    background-color: beige;
+    color: #3d2424;
+    font-size: 18px;
+    margin: -40px 0 10px 0;
+}
+.dark marquee{
+    background-color: #5a4c32;
+    color: white;
+}
